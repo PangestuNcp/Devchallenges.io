@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 15%;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+header .logo h1{
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+header .description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+header .description h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Main */
+.row{
+    display: grid;
+    grid-column-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    
+}
+.row .col{
+    max-width: 230px;
+    position: relative;
+}
+.row .col .work{
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 0;
+    right: -15px;
+
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.row .col img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.row .col .name{
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;   
+}
+
+
+footer{
+    margin: 100px 0 10px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #828282;
+}
