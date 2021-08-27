@@ -1,0 +1,47 @@
+@media screen and (max-width: 950px){
+    body{
+        font-size: 14px;
+    }
+    .container{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 730px){
+    :root{
+        font-size: 15px;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    main .wrape{
+        width: 90%;
+    }
+    main aside{
+        width: 100%;
+        order: -1;
+        height: 100%;
+        padding: 0.5em;
+        align-items: center;
+        box-shadow: none;
+    }
+    main aside .tue{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.5em;
+    }
+    
+}
+@media screen and (max-width: 390px){
+    :root{
+        font-size: 14px;
+    }
+    main aside .aside-item i{
+            margin-right: .5em;
+        }
+}
+
