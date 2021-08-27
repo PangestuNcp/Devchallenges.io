@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a challenge from Dev Challenges.io">
+    <title>Interior Consultant</title>
+    <link rel="icon" href="devchallenges.png" />
+
+    <!-- Styel -->
+    <link rel="stylesheet" href="css/styel.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">This Interior</div>
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Collection</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            
+            <div class="hambeger" id="hambeger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+    
+        <main>
+            <div class="content-left">
+                <h1>Modern interior</h1>
+                <p>A full-Service residential & commercial
+                    interior design and staging company offering
+                    professional organizing & eco-services.
+                </p>
+                
+                <a href="#">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+    
+            <div class="content-right">
+                <img src="image/photo1.png" alt="image">
+    
+                <div class="description">
+                    <div class="profil">
+                        <img src="image/photo2.png" alt="User">
+                        <div class="name">
+                            <h4>Aliza Webber</h4>
+                            <p>Interior designer</p>
+                        </div>
+                    </div>
+                    <h2>Designed in 2020 by <br> Aliza Webber</h2>
+                </div>
+            </div>
+        </main>
+    
+        <footer>
+            <p>created by Pangestu.Ncp - devChallenges.io</p>
+        </footer>
+    </div>
+
+    <script>
+        const navSlide = () => {
+            const burger = document.querySelector('.hambeger');
+            const nav = document.querySelector('.nav-menu');
+
+            burger.addEventListener('click', () => {
+                nav.classList.toggle('nav-active');
+            });
+        }
+
+        navSlide()
+    </script>
+</body>
+</html>
