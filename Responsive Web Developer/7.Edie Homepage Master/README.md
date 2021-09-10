@@ -1,12 +1,12 @@
-<h1 align="center">Recipe Page</h1>
+<h1 align="center">Edie Homepage Master</h1>
 
 <div align="center">
   <h3>
-    <a href="https://cheesecake-recipe-master.web.app/" target="_blank">
+    <a href="#" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht" target="_blank">
+    <a href="https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0" target="_blank">
       Challenge
     </a>
     <span> | </span>
@@ -16,4 +16,4 @@
   </h3>
 </div>
 
-<p align="center">This application/site was created as a submission to a <a href="https://devchallenges.io/paths/responsive-web-developer">DevChallenges</a> challenge. The <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">challenge</a> was to build an application to complete the given user stories.</p>
+<p align="center">This application/site was created as a submission to a <a href="https://devchallenges.io/paths/responsive-web-developer">DevChallenges</a> challenge. The <a href="https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0">challenge</a> was to build an application to complete the given user stories.</p>
