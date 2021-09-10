@@ -1,0 +1,165 @@
+@media screen and (max-width: 900px) {
+    :root{
+        font-size: 15px;
+    }
+    /* Header */
+    header .header-heading{
+        width: 90%;
+    }
+    header .header-contact .email input[type="button"]{
+        margin: -86px;
+    }
+
+    /* Main */
+    main{
+        max-width: 93%;
+        margin: 10em auto;
+    }
+    .section-services .col .services-item .description p{
+        max-width: 95%;
+    }
+    .section-business .col .image-project{
+        max-width: 350px;
+    }
+    .section-team .col{
+        grid-template-columns: 1fr 1.5fr;
+    }
+    .section-team .col .description-team{
+        max-width: 80%;
+    }
+    .section-team .col .profil-team{
+        column-gap: 1.5em;
+        row-gap: 1em;
+    }
+    .section-clients blockquote{
+        max-width: 90%;
+    }
+    footer .col .footer-contact .email input[type="button"]{
+        margin: -64px;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    body{
+        overflow-x: hidden !important;
+    }
+    nav .hambeger{
+        display: block;
+    }
+    nav ul{
+        position: absolute;
+        top: 12vh;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        height: 88vh;
+        width: 100%;
+        transform: translateX(-900%);
+        background-color: #fff;
+        text-align: center;
+        justify-content: center;
+        z-index: 99;
+    }
+    .nav-active{
+        transform: translateX(0%);
+    }
+    nav .link{
+        margin: 1em;
+    }
+    nav .link a{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    header .header-heading p{
+        max-width: 80%;
+    }
+
+    /* Main */
+    .section-services .col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section-services .col .services-item .description p{
+        max-width: 80%;
+    }
+    .section-business .col{
+        margin-top: 2em;
+    }
+    .section-business .col .image-project {
+        max-width: 270px;
+    }
+
+    .section-team .col{
+        grid-template-columns: 1fr;
+    }
+    .section-team .col .description-team{
+        max-width: 70%;
+        margin-bottom: 1em;
+    }
+    .section-team .col .profil-team .image-profil {
+        max-width: 230px;
+    }
+    footer .col{
+        grid-template-columns: 1fr 1fr 1.5fr;
+    }
+    footer .col .footer-contact .email input[type="email"]{
+        width: 200px;
+    }
+}
+@media (max-width: 560px){
+    :root{
+        font-size: 14px;
+    }
+    header .header-contact .email input[type="email"] {
+        width: 250px;
+    }
+    header .header-contact .email input[type="button"] {
+        margin: -80px;
+    }
+    .section-services .col{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .section-services .col .services-item{
+        max-width: 250px;
+    }
+    .section-business .col{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .section-business .col .image-project:nth-child(odd){
+        padding: 3em 0;
+        justify-self: center;
+    }
+    .section-business .section-content-more{
+        text-align: end;
+        margin-top: 2em;
+    }
+    .section-business .section-content-more a {
+        margin-right: 39px;
+    }
+    .section-team .col .profil-team{
+        grid-template-areas: "one two three";
+        column-gap: 0;
+        row-gap: 0; 
+    }
+    .section-team .col .profil-team .image-profil{
+        width: 110px;
+    }
+    .section-team .col .profil-team .image-one{
+        grid-area: one;
+        justify-self: start;
+    }
+    footer .col {
+        grid-template-columns: 1fr;
+        row-gap: 2em;
+    }
+    footer .col .footer-contact .email input[type="button"] {
+        margin: -60px;
+    }
+}
+@media screen and (max-width:360px) {
+    .section-team .col .profil-team .image-profil{
+        width: 90px;
+    }
+}

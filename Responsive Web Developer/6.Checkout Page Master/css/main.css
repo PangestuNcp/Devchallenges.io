@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 80%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #4E5150;
+    text-align: start;
+}
+main{
+    padding: 4em 0;
+}
+main h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1em;
+    color: #4E5150;
+}
+main .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Col Form / col left */
+.wrapper .left{
+    width: 55%;
+    position: relative;
+}
+.wrapper .left form h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: .8em;
+}
+/* input global */
+.wrapper .left form label{
+    font-size: .8rem;
+    font-weight: 600;
+    color: #4F4F4F;
+}
+.wrapper .left form input{
+    width: 80%;
+    padding: 1em .5em 1em 3.2em;
+    border-radius: 10px;
+    border: 1px solid #828282;
+}
+.wrapper .left form .item-input{
+    position: relative;
+    margin: .3em 0 .8em;
+    align-items: center;
+}
+.wrapper .left form .item-input .fas{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+/* input item last */
+.wrapper .left form .last{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.wrapper .left form .last select{
+    width: 90%;
+    padding: 1em .5em 1em 3.2em;
+    border-radius: 10px;
+    border: 1px solid #828282;
+    color: #828282;
+}
+.wrapper .left form .last input{
+    width: 100%;
+}
+/* input save */
+.wrapper .left form .save input{
+    width: 20px;
+}
+.wrapper .left form .shipping-address{
+    margin: 3em 0 2em;
+}
+.wrapper .left form input[type="button"]{
+    width: 30%;
+    padding: 1em;
+    background-color: #F2994A;
+    color: #fff;
+    border: none;
+    position: absolute;
+    right: 105px;
+}
+
+
+
+/* Col item-shop  */
+.wrapper .right{
+    width: 35%;
+}
+.wrapper .right .row{
+    padding: 1.5em;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+.right .row .item-shop{
+    position: relative;
+    display: flex;
+    margin-bottom: 3em;
+}
+.right .row .item-shop img{
+    width: 134px;
+    border-radius: 10px;
+    margin-right: 1em;
+}
+.right .row .item-shop .description{
+    width: 45%;
+}
+.right .row .item-shop h3{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4E5150;
+}
+.right .row .item-shop p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #F2994A;
+    margin-top: .5em;
+}
+.right .row .item-shop p span{
+    font-size: .8rem;
+    margin-left: 1rem;
+    color: #4E5150;
+    text-decoration: line-through;
+}
+.right .row .item-shop .button{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #828282;
+    border-radius: 5px;
+    padding: .5em;
+    margin-top: 3.5em;    
+}
+.right .row .item-shop button{
+    border: none;
+}
+.right .row .item-shop .button .fas{
+    font-size: 1.2rem;
+    color: #828282;
+}
+
+/* Price Information */
+.right .row .price-information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    border-top: 1px solid #828282;
+    margin-bottom: .8em;
+}
+.right .row .price-information h4{
+    font-weight: 600;
+    color: #4E5150;
+    font-size: 1rem;
+}
+.right .row .price-information p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.right .row .price-information p span{
+    color: #F2994A;
+}
+
+
+/* Footer */
+footer{
+    margin: 80px 0 10px;
+    text-align: center;
+    font-size: .9rem;
+    text-transform: capitalize;
+    color: #828282;
+}

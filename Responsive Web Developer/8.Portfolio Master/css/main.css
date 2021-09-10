@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2F2F2;
+}
+.container{
+    max-width: 75%;
+    margin: 4em auto 0;
+}
+header, .col{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1.4em;
+    box-shadow: 10px 10px 30px 0px #0000001F;
+}
+p{
+    color: #828282;
+    font-weight: 500;
+}
+
+
+/* ==================== Header ==================== */
+header{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    column-gap: 1em;
+    margin-bottom: 2em;
+}
+/* profil */
+header .image-profil{
+    width: 250px;
+    height: 280px;
+    background-color: #2F80ED;
+    border-radius: 10px;
+}
+/* information profil - about */
+header .information-profil .about{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    align-items: flex-end;
+}
+header .information-profil .about .name h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #4F4F4F;
+    margin-bottom: .2em;
+}
+header .information-profil .about .contact .material-icons{
+    font-size: 1rem;
+    margin-right: .5em;
+}
+header .information-profil .about .contact p:first-child{
+    margin-bottom: .4em;
+}
+/* information profil - description */
+header .information-profil .description{
+    max-width: 95%;
+}
+header .information-profil .description p:first-child{
+    margin-bottom: 1.2em;
+}
+/* ================= End Header ================= */
+
+
+/* ==================== Main ==================== */
+/* ======++++++ Main content ++++++====== */
+.main-content{
+    display: grid;
+    grid-template-columns: auto 2fr;
+    grid-template-areas: "frontend blog"
+                         "hobbies blog"
+                         "hobbies experiences";
+    gap: 1.2em;
+    margin-bottom: 2em;
+}
+.main-content h2{
+    color: #333333;
+    font-weight: 500;
+}
+
+/* ++++++ section skill ++++++ */
+.main-content .section-skill{
+    grid-area: frontend;
+}
+.main-content .section-skill h2{
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.main-content .section-skill .item{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+.main-content .section-skill .item:last-child{
+    margin-bottom: 0;
+}
+.main-content .section-skill .item label{
+    font-weight: 500;
+    color: #4F4F4F;
+}
+.main-content .section-skill .item progress{
+    height: 15px;
+    align-self: center;
+} /* ++++++ end section skill ++++++ */
+
+/* ++++++ section hobbies ++++++ */
+.main-content .section-hobbies{
+    grid-area: hobbies;
+}
+.main-content .section-hobbies .item{
+    padding: 1em 0;
+}
+.main-content .section-hobbies .item:last-child{
+    padding-bottom: 0;
+}
+.main-content .section-hobbies .item img{
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    margin-bottom: 1em;
+}
+.main-content .section-hobbies .item .description h3{
+    font-weight: 600;
+    margin-bottom: .3em;
+} /* ++++++ end section hobbies ++++++ */
+
+/* ++++++ section blog ++++++ */
+.main-content .section-blog{
+    overflow: hidden;
+    grid-area: blog;
+}
+.main-content .section-blog span{
+    color: #E0E0E0;
+    font-weight: 500;
+}
+.main-content .section-blog .blog-header{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    column-gap: 1em;
+    padding: 1em 0 2.5em;
+}
+.main-content .section-blog .blog-header h2{
+    max-width: 90%;
+    margin-top: 1em;
+}
+.main-content .section-blog .blog-header img{
+    max-width: 396px;
+    margin-right: -2em;
+    border-radius: 15px;
+}
+.main-content .section-blog .description p:last-child{
+    margin: 1.5em 0 5em;
+}
+.main-content .section-blog a{
+    color: #2F80ED;
+    text-decoration: none;
+    font-weight: 500;
+} /* ++++++ end section blog ++++++ */
+
+/* ++++++ section experiences ++++++ */
+.main-content .section-experiences{
+    grid-area: experiences;
+}
+.main-content .section-experiences .item-experiences{
+    display: flex;
+    padding: 2em 0;
+}
+.main-content .section-experiences .item-experiences:last-child{
+    padding-bottom: 0;
+}
+.main-content .section-experiences .item-experiences img{
+    max-width: 110px;
+    margin-right: 3em;
+}
+.main-content .section-experiences .item-experiences .information-experiences .header-experiences p{
+    font-size: .9rem;
+    margin-bottom: .2em;
+}
+.main-content .section-experiences .item-experiences .information-experiences .description{
+    padding-top: 1.5em;
+    max-width: 80%;
+} /* ++++++ end section experiences ++++++ */
+/* ======++++++ End Main content ++++++====== */
+
+
+/* ======++++++ Main projects ++++++====== */
+.main-projects .section-projects{
+    padding-bottom: 5em;
+}
+.main-projects .section-projects .projects-header h3{
+    font-weight: 500;
+    color: #4F4F4F;
+    margin-bottom: 1em;
+}
+.main-projects .section-projects .projects-header .item a{
+    font-size: .9rem;
+    font-weight: 500;
+    color: #4F4F4F;
+    padding: .49em 1.4em;
+    margin-right: 1em;
+    border: 1px solid #4F4F4F;
+    border-radius: 10px;
+    background-color: transparent;
+    text-decoration: none;
+}
+.main-projects .section-projects .projects-header .item .active{
+    background-color: #2F80ED;
+    color: #fff;
+    border: none;
+} /* ++++++ end  projects header ++++++ */
+
+.main-projects .section-projects .projects-content{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, .5fr);
+    column-gap: 2em;
+    justify-content: space-between;
+}
+.main-projects .section-projects .projects-content .content-item .img{
+    max-width: 292px;
+    height: 217px;
+    background-color: #2F80ED;
+    border-radius: 10px;
+}
+.main-projects .section-projects .projects-content .content-item .tage-line{
+    padding: .8em 0;
+    display: flex;
+}
+.main-projects .section-projects .projects-content .content-item .tage-line p{
+    margin-right: 1em;
+    font-size: .9rem;
+    color: #4F4F4F;
+}
+.main-projects .section-projects .projects-content .content-item .description h2{
+    padding: .2em 0 1em;
+    font-weight: 500;
+}
+.main-projects .section-projects .projects-content .content-item .btn{
+    padding: 3em 0 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.main-projects .section-projects .projects-content .content-item .btn a{
+    padding: .6em 1.5em;
+    border: 1px solid #2F80ED;
+    border-radius: 10px;
+    color: #2F80ED;
+    text-decoration: none;
+}
+.main-projects .section-projects .projects-content .content-item .btn .demo{
+    background-color: #2F80ED;
+    color: #ffff;
+} /* ++++++ end projects content  ++++++ */
+/* ======++++++ end Main projects ++++++====== */
+
+
+footer{
+    margin: 20px 0 10px;
+    text-align: center;
+    font-size: .9rem;
+    text-transform: capitalize;
+    color: #828282;
+}

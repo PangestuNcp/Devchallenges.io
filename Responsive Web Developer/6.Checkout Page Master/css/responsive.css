@@ -1,0 +1,85 @@
+@media screen and (max-width:1025px) {
+    body{
+        max-width: 80%;
+        margin: auto;
+    }
+    /* right */
+    .wrapper .right {
+        width: 80%;
+    }
+    /* left */
+    .wrapper .left {
+        width: 100%;
+    }
+    .wrapper .left form input{
+        width: 90%;
+    }
+}
+@media screen and (max-width:850px) {
+    :root{
+        font-size: 15px;
+    }
+    body{
+        max-width: 90%;
+    }
+
+    /* right */
+    .wrapper .right .row{
+        padding: 1em;
+    }
+    .wrapper .right .row .item-shop img{
+        min-width: 40%;
+
+    }
+}
+@media screen and (max-width:600px) {
+    :root{
+        font-size: 13px;
+    }
+    body{
+        max-width: 95%;
+        margin: auto;
+    }
+    .right .row .item-shop p span{
+        display: block;
+        margin: .5em 0;
+    }
+    .wrapper .right .row .item-shop img{
+        width: 45%;
+    }
+}
+@media screen and (max-width:500px) {
+    :root{
+        font-size: 14px;
+    }
+    body{
+        max-width: 90%;
+        margin: auto;
+    }
+    main .wrapper{
+        flex-direction: column-reverse;
+    }
+
+    /* Right */
+    .wrapper .right{
+        width: 100%;
+    }
+    .wrapper .right .row .item-shop img{
+        width: 45%;
+    }
+
+    /* Left */
+    .wrapper .left{
+        width: 100%;
+        padding-top: 4em;
+    }
+    .wrapper .left form input{
+        width: 100%;
+    }
+    .wrapper .left form .last{
+        width: 100%;
+    }
+    .wrapper .left form input[type="button"]{
+        right: 0;
+    }
+}

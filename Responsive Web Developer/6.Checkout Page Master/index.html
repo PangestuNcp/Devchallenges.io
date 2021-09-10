@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="image/devchallenges.png"/>
+  <title>Checkout Page Master</title>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  
+</head>
+<body>
+  <main>
+    <h1>Checkout</h1>
+    <div class="wrapper">
+      <div class="col left">
+        <form action="">
+          <div class="contact-infomation">
+            <h2>Contact infomation</h2>         
+            <div class="item">
+              <label for="email">E-mail</label>
+              <div class="item-input">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" placeholder="Enter your email...">
+              </div>
+            </div>  <!--End Email -->            
+            <div class="item">
+              <label for="phone">Phone</label>
+              <div class="item-input">
+                <i class="fas fa-phone-alt"></i>
+                <input type="number" name="phone" placeholder="Enter your phone...">
+              </div>
+            </div>  <!--End Phone -->
+          </div> <!--End Contact infomation -->
+
+          <div class="shipping-address">
+            <h2>Shipping address</h2>
+            <div class="item">
+              <label for="name">Full name</label>
+              <div class="item-input">
+                <i class="fas fa-user-circle"></i>
+                <input type="text" name="name" placeholder="Enter your name...">
+              </div>
+            </div>  <!--End Full name -->
+            <div class="item">
+              <label for="address">Address</label>
+              <div class="item-input">
+                <i class="fas fa-home"></i>
+                <input type="text" id="address" placeholder="Enter your address...">
+              </div>
+            </div>  <!--End Address -->
+            <div class="item">
+              <label for="city">City</label>
+              <div class="item-input">
+                <i class="fas fa-city"></i>
+                <input type="text" id="city" placeholder="Enter your city...">
+              </div>
+            </div>  <!--End City -->
+            <div class="item last">
+              <div class="item-left">
+                <label for="country">Country</label>
+                <div class="item-input">
+                  <i class="fas fa-globe-asia"></i>
+                  <select>
+                    <option selected disabled>Your country..</option>
+                    <option value="jakaera">Jakarta</option>
+                    <option value="bandung">Bandung</option>
+                    <option value="yogyakarta">Yogyakarta</option>
+                  </select>
+                </div>
+                
+              </div>
+              
+              <div class="item-right">
+                <label for="code">Postal code</label>
+                <div class="item-input">
+                  <i class="fas fa-mail-bulk"></i>
+                  <input type="number" id="code" placeholder="Your postal code..">
+                </div>
+              </div>
+            </div> <!--End Country & Postal code-->
+            <div class="item save">
+              <input type="checkbox" id="save">
+              <label for="save">Save this information for next time</label>
+            </div> <!--End input save-->
+          </div> <!--End Shipping-address-->
+
+          <input type="button" value="Continue">
+        </form>
+      </div> <!--Col left-->
+
+      <div class="col right">
+        <div class="row">
+          
+          <div class="item-shop">
+            <img src="image/photo1.png" alt="image">
+            <div class="description">
+              <h3>Vintage Backbag</h3>
+              <p>$54.99 <span>$94.99</span></p>
+              <div class="button">
+                <button><i class="fas fa-plus-square"></i></button>
+                <h4>1</h4>
+                <button><i class="fas fa-minus-square"></i></button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="item-shop">
+            <img src="image/photo2.png" alt="image">
+            <div class="description">
+              <h3>Levi Shoes</h3>
+              <p>$74.99 <span>$124.99</span></p>
+              <div class="button">
+                <button><i class="fas fa-plus-square"></i></button>
+                <h4>1</h4>
+                <button><i class="fas fa-minus-square"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="price-information">
+            <h4>Shipping</h4>
+            <p>$19</p>
+          </div>
+          <div class="price-information">
+            <h4>Total</h4>
+            <p>$148.<span>98</span></p>
+          </div>
+
+        </div> 
+
+        
+        
+        
+    </div>
+  </main>
+  <footer>
+    <p>created by Pangestu.Ncp - devChallenges.io</p>
+  </footer>
+</body>
+</html>

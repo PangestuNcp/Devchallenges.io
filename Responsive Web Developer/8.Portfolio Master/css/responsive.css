@@ -1,0 +1,79 @@
+@media screen and (max-width:1170px) {
+    :root{
+        font-size: 15px;
+    }
+    .container{
+        max-width: 80%;
+    }
+    .main-projects .section-projects .projects-content{
+        column-gap: 1em;
+    }   
+}
+@media screen and (max-width:990px) {
+    :root{
+        font-size: 14px;
+    }
+    .container{
+        max-width: 95%;
+    }
+    .main-projects .section-projects .projects-content .col{
+        padding: 1em;
+    }   
+}
+@media screen and (max-width:765px){
+    .main-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "frontend"
+                             "hobbies"
+                             "blog"
+                             "experiences";
+        gap: 1.2em;
+        margin-bottom: 2em;
+    }
+    .main-content .section-hobbies .item{
+        align-items: center;
+        text-align: center;
+                
+    }
+    .main-content .section-blog .blog-header{
+        column-gap: 3em;
+    }
+    .main-content .section-blog .blog-header h2{
+        max-width: 60%;
+    }
+    .main-projects .section-projects .projects-content{
+        grid-template-columns: repeat(2, .5fr);
+        column-gap: 2em;
+        row-gap: 2em;
+    }
+}
+
+@media screen and (max-width:660px) {
+    header{
+        grid-template-columns: 1fr;
+        align-items: center;
+        row-gap: 2em;
+    }
+    header .image-profil{
+        margin: auto;
+    }
+}
+@media screen and (max-width:515px){
+    .container{
+        max-width: 90%;
+    }
+    .main-projects .section-projects .projects-content{
+        grid-template-columns: 1fr;
+        margin: 2em auto;
+        row-gap: 2em;
+        text-align: center;
+    }
+    .main-projects .section-projects .projects-content .content-item .tage-line{
+        justify-content: center;
+    }
+    .main-projects .section-projects .projects-content .content-item .img{
+        margin: 1em auto 0;
+        
+    }
+}
