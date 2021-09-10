@@ -8,3 +8,7 @@
 - [My team page master](https://github.com/PangestuNcp/Devchallenges.io/tree/main/Responsive%20Web%20Developer/2.My%20team%20page%20master)
 - [Interior Consultant](https://github.com/PangestuNcp/Devchallenges.io/tree/main/Responsive%20Web%20Developer/3.Interior%20Consultant)
 - [Classic Cheesecake Recipe](https://github.com/PangestuNcp/Devchallenges.io/tree/main/Responsive%20Web%20Developer/4.Classic%20Cheesecake%20Recipe)
+- [My Gallery Master](https://github.com/PangestuNcp/Devchallenges.io/tree/main/Responsive%20Web%20Developer/5.My%20Gallery%20Master)
+- [Checkout Page Master](https://github.com/PangestuNcp/Devchallenges.io/tree/main/Responsive%20Web%20Developer/6.Checkout%20Page%20Master)
+- [Edie Homepage Master](https://github.com/PangestuNcp/Devchallenges.io/tree/main/Responsive%20Web%20Developer/7.Edie%20Homepage%20Master)
+- [Portfolio Master](https://github.com/PangestuNcp/Devchallenges.io/tree/main/Responsive%20Web%20Developer/8.Portfolio%20Master)
