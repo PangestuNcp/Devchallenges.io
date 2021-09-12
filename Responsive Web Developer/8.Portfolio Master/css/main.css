@@ -37,8 +37,16 @@ header{
 header .image-profil{
     width: 250px;
     height: 280px;
-    background-color: #2F80ED;
+    overflow: hidden;
     border-radius: 10px;
+    position: relative;
+}
+header .image-profil img{
+    max-width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: -50px;
+
 }
 /* information profil - about */
 header .information-profil .about{
@@ -127,6 +135,11 @@ header .information-profil .description p:first-child{
     height: 150px;
     border-radius: 15px;
     margin-bottom: 1em;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.main-content .section-hobbies .item img:hover{
+    transform: scale(1.1);
 }
 .main-content .section-hobbies .item .description h3{
     font-weight: 600;
@@ -225,11 +238,15 @@ header .information-profil .description p:first-child{
     column-gap: 2em;
     justify-content: space-between;
 }
-.main-projects .section-projects .projects-content .content-item .img{
-    max-width: 292px;
-    height: 217px;
-    background-color: #2F80ED;
+
+.main-projects .section-projects .projects-content .content-item .img img{
+    max-width: 100%;
     border-radius: 10px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+.main-projects .section-projects .projects-content .content-item .img img:hover{
+    transform: scale(1.1);
 }
 .main-projects .section-projects .projects-content .content-item .tage-line{
     padding: .8em 0;
